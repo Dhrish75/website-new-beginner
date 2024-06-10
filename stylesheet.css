@@ -1,0 +1,16 @@
+button{
+    color:rgb(19, 242, 15);
+    font-size: medium;
+    font-style: italic;
+    text-shadow: 0cqmin;
+}
+body{
+    background-color: rgb(226, 30, 164);
+}
+p{
+    font-style:oblique
+}
+h1{
+    text-align: center;
+    text-decoration: dotted;
+}
