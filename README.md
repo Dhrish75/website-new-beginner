@@ -8,19 +8,24 @@ This repository contains a full pipeline for **binary classification** of soil v
 ## 🗂️ Directory Structure
 
 ```
-soil-vs-notsoil/
+challenge-2/
 ├── data/
-│   ├── train/                   # Original soil image dataset
-│   ├── generated_not_soil/     # Synthetic non-soil images (generated programmatically)
-│   └── train_labels.csv        # Labels for training images
+│   └── download.sh                 # Script to download dataset
+│
+├── docs and card/
+│   ├── ml-metrics.json            # Model evaluation metrics (min F1-score, etc.)
+│   └── task2_architecture.png     # CNN model architecture diagram
+│
 ├── notebooks/
-│   └── soil_vs_notsoil.ipynb   # Main notebook with data prep, model, training, evaluation
-├── outputs/
-│   ├── confusion_matrix.png    # Final confusion matrix heatmap
-│   └── metrics.json            # Evaluation metrics like F1-scores
-├── README.md                   # Project overview and instructions
-└── requirements.txt            # List of required Python packages
-```
+│   ├── leaderboard-score          # Scoring file (F1-score or result logs)
+│   └── soil_classification2.ipynb # Main notebook with model training & evaluation
+│
+├── src/                           # Additional scripts/helpers (optional)
+│
+├── Readme.md                      # Project overview and instructions
+└── requirement.txt                # Required Python packages
+
+
 
 ---
 
